@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Components Demo</title>
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script defer src="example3.js"></script>
+</head>
+<body>
+    <div id="app1">
+        <h1>Full Name: {{ fullName }}</h1>
+        <input type="text" v-model="firstName" placeholder="First Name">
+        <input type="text" v-model="middleName" placeholder="Middle">
+        <input type="text" v-model="lastName" placeholder="Last Name">
+    </div>
+</body>
+</html>
